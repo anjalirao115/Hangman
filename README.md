@@ -6,7 +6,7 @@ The code is written for a classic Hangman game in which a player thinks of a wor
 Following is some description of the code:
 
 ## Random selection of a word
-The programme selects a word randomly from a list of words provided. It finds out the length of characters and prints '_' * len(word) as a guessed word (word_guessed).
+The programme selects a word randomly from a list of words provided. It finds out the length of characters and prints '_'  *  len(word) as a guessed word (word_guessed).
 
 ## Number of lives
 The programme is written to provide 5 lives to the user to correctly guess the word.
@@ -27,5 +27,5 @@ If the input passes the above checks outlined in ask_letter method, it is given 
 * If it is not, it reduces the number of lives by 1.
 
 The two methods are called insided a while loop, which breaks when one of the following two conditions are met:
-1. When the user correctly guesses the word while number of lives remaining are more than zero.
-2. When the remaining number of lives reaches zero.
+1. When the user correctly guesses the word while number of remanining lives are more than zero
+2. When the remaining number of lives reaches zero
