@@ -6,7 +6,7 @@ The code is written for a classic Hangman game in which a player thinks of a wor
 Following is some description of the code:
 
 ## Random selection of a word
-The programme selects a word randomly from a list of words provided. It finds out the length of characters and prints the '_' * len(word) as a guessed word (word_guessed).
+The programme selects a word randomly from a list of words provided. It finds out the length of characters and prints '_' * len(word) as a guessed word (word_guessed).
 
 ## Number of lives
 The programme is written to provide 5 lives to the user to correctly guess the word.
@@ -16,9 +16,9 @@ The code mainly works on two methods inside the Hangman class:
 ## method 1: ask_letter
 
 The method asks the user for a letter and checks following things to ensure a valid input:
-    1. If the input is a sigle character
-    2. If the input is an alphabetical character 
-    3. If the letter has already been tried
+1. If the input is a sigle character
+2. . If the input is an alphabetical character 
+3. If the letter has already been tried
 
 ## method 2: check_letter
 
