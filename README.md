@@ -15,16 +15,16 @@ The code mainly works on two methods inside the Hangman class:
 
 ## method 1: ask_letter
 
-The method asks the user for a letter and checks following things to ensure a valid input:
+The method asks the user for a letter and checks the following to ensure a valid input:
 1. If the input is a sigle character
-2. . If the input is an alphabetical character 
+2. If the input is an alphabetical character 
 3. If the letter has already been tried
 
 ## method 2: check_letter
 
 If the input passes the above checks outlined in ask_letter method, it is given as input to check_letter method. It checks if the letter is in the word.
-    If it is, it replaces the '_' in the word_guessed with the letter.
-    If it is not, it reduces the number of lives by 1.
+* If it is, it replaces the '_' in the word_guessed with the letter.
+* If it is not, it reduces the number of lives by 1.
 
 The two methods are called insided a while loop, which breaks when one of the following two conditions are met:
 1. When the user correctly guesses the word while number of lives remaining are more than zero.
